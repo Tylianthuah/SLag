@@ -144,7 +144,7 @@ export default function HeroSection() {
                                         },
                                         ...transitionVariants,
                                     }}
-                                    className="mt-12 flex flex-col items-center justify-center gap-2 md:flex-row">
+                                    className="mt-12 flex flex-col items-center justify-center gap-5 md:flex-row">
                                     <div
                                         key={1}
                                         className="bg-foreground/10 rounded-[calc(var(--radius-xl)+0.125rem)] border p-0.5">
@@ -153,7 +153,7 @@ export default function HeroSection() {
                                             size="lg"
                                             className="rounded-xl px-5 text-base">
                                             <Link href="#link">
-                                                <span className="text-nowrap">Start Building</span>
+                                                <span className="text-nowrap">Get Started</span>
                                             </Link>
                                         </Button>
                                     </div>
@@ -161,7 +161,7 @@ export default function HeroSection() {
                                         key={2}
                                         asChild
                                         size="lg"
-                                        variant="ghost"
+                                        variant="secondary"
                                         className="h-10.5 rounded-xl px-5">
                                         <Link href="#link">
                                             <span className="text-nowrap">Request a demo</span>
